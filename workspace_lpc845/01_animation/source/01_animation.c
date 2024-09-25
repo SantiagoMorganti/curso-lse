@@ -22,7 +22,7 @@ int j = 0 ;
 int main(void) {
 	// Inicializacion
     BOARD_InitBootClocks();
-    BOARD_InitDebugConsole();
+    BOARD_InitDebdugConsole();
 
     // Estructura de configuracion para salida
     gpio_pin_config_t config_led = { kGPIO_DigitalOutput, 0 };
